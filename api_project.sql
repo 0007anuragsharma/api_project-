@@ -9,8 +9,8 @@ use api_database;
 CREATE OR REPLACE STAGE my_s3_stage
 URL = 's3://apiproject0/'
 CREDENTIALS = (
-    AWS_KEY_ID = 'AKIATT32Z7ISAO27GZES',
-    AWS_SECRET_KEY = 'udogIcfa9xVC9pFPa538mO11TUljqAJ5Eks06umr'
+    AWS_KEY_ID = '',
+    AWS_SECRET_KEY = ''
 )
 FILE_FORMAT = (TYPE = JSON);
 
